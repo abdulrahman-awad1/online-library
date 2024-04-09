@@ -1,0 +1,85 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: rgb(175 119 69);
+	background-image: url(../imgs/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	user-select: none;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	box-shadow: 0px 7px 14px 10px rgba(0, 0, 0, 0.8);
+}
+
+nav a img {
+	width: 70px;
+	height: 60px;
+	border-radius: 70%;
+	margin: 5px;
+	margin-left: 30px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+nav a {
+	cursor: default;
+}
+
+nav div {
+	display: flex;
+	margin-right: 20px;
+}
+
+nav div a {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: gold;
+	padding: 10px;
+	margin: 0;
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+}
+
+nav div a:nth-child(1) {
+	border-right: 1px solid black;
+	border-radius: 5px 0 0 5px;
+}
+
+nav div a:nth-child(2) {
+	border-radius: 0 5px 5px 0;
+}
+
+nav div a:hover {
+	background-color: rgba(255, 255, 255, 1);
+	color: goldenrod;
+}
+
+.hero-section {
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(10px);
+	color: white;
+	align-self: center;
+	border-radius: 20px;
+	padding: 20px;
+	width: fit-content;
+	font-size: 100px;
+	transition: all 0.3s ease-out;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: gold;
+	border-radius: 60% 60% 0 0;
+	padding: 30px;
+	text-align: center;
+}

@@ -1,0 +1,64 @@
+section header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section header span{
+	margin-left: 25px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+section header a {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	padding: 5px;
+	padding-bottom: 3px;
+	margin-right: 25px;
+	vertical-align: bottom;
+	font-size: larger;
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+}
+
+section .separator {
+	margin-top: 0;
+}
+
+section table {
+	width: 100%;
+	text-align: center;
+	border-spacing: 20px;
+}
+
+.operations-container {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+section table a, section table input {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+}
+
+section table a:hover, section table input:hover, header a:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.show {
+	color: rgba(255, 255, 255, 0.7);
+	margin-left: 25px;
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+}
+
+.show:hover {
+	color: rgba(255, 255, 255, 1);
+}
